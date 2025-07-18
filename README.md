@@ -56,4 +56,3 @@ The hyperparameter tuning process successfully identified an optimal XGBoost mod
 
 **Name:** Sanjay Chabukswar
 **Email:** sanjaychabukswar1995@gmail.com
-**GitHub:** Sonjoy@95
