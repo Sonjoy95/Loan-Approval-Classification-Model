@@ -85,5 +85,5 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Contact
 
-**Name:** Sanjay Chabukswar
-**Email:** sanjaychabukswar1995@gmail.com
+  - **Name:** Sanjay Chabukswar
+  - **Email:** sanjaychabukswar1995@gmail.com
