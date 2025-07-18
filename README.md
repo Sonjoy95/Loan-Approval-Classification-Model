@@ -69,7 +69,7 @@ Follow these instructions to get a copy of the project up and running on your lo
      ```bash
      git clone https://github.com/Sonjoy95/Loan-Approval-Classification-Model.git
      cd Loan-Approval-Classification-Model
-    ```
+     ```
   2. **Create a virtual environment (recommended):**
      ```bash
      python -m venv venv
