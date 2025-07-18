@@ -44,13 +44,44 @@ The hyperparameter tuning process successfully identified an optimal XGBoost mod
 
 **Final Model Performance Comparison:**
 
-## Model Performance Results
-
 | Model                 | F1-Score (Train) | F1-Score (Test) | Accuracy (Train) | Accuracy (Test) | ROC-AUC (Train) | ROC-AUC (Test) |
 | :-------------------- | :--------------- | :-------------- | :--------------- | :-------------- | :-------------- | :------------- |
 | **XGBoost Classifier** | 0.85             | **0.90** | 0.84             | **0.85** | 0.94            | **0.88** |
 | Logistic Regression   | 0.87             | 0.87            | 0.80             | 0.82            | 0.78            | 0.87           |
 | Random Forest         | 1.0              | 0.89        | 1.0             | 0.85            | 1.0          | 0.85       |
+
+**Key Observations:**
+  - The **XGBoost Classifier significantly outperforms the Logistic Regression baseline** across all key metrics (F1, Accuracy, ROC-AUC) on the unseen test data. This indicates its superior capability in capturing complex patterns within loan application data.
+  - The final XGBoost model demonstrates **strong generalization capabilities**, with a very small difference between training and testing scores for F1-score and Accuracy.
+  - The high test F1-score (0.90) indicates excellent precision and recall in identifying loan approval outcomes.
+  - The test ROC-AUC (0.88) signifies a robust ability to distinguish between approved and denied loan applications across various thresholds.
+
+
+### Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+**Prerequisites**
+  - Python 3.x (Ensure that you have python 3.10 version to avoid library or package compatability issue)
+  - Pip (Python package installer) (When you create virtual environment or install python, by default it installs pip and setuptools packages)
+
+**Installation**
+  1. **Clone the repository:**
+     ```bash
+     git clone https://github.com/Sonjoy95/Loan-Approval-Classification-Model.git
+     cd Loan-Approval-Classification-Model
+    ```
+  2. **Create a virtual environment (recommended):**
+     ```bash
+     python -m venv venv
+     # On Windows
+     .\venv\Scripts\activate
+     # On macOS/Linux
+     source venv/bin/activate
+     ```
+  3. **Install the required packages:**
+     ```bash
+     pip install -r requirements.txt
+     ```
 
 ### Contact
 
