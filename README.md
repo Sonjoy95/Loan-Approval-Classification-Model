@@ -65,12 +65,7 @@ Follow these instructions to get a copy of the project up and running on your lo
   - Pip (Python package installer) (When you create virtual environment or install python, by default it installs pip and setuptools packages)
 
 **Installation**
-  1. **Clone the repository:**
-     ```bash
-     git clone https://github.com/Sonjoy95/Loan-Approval-Classification-Model.git
-     cd Loan-Approval-Classification-Model
-     ```
-  2. **Create a virtual environment (recommended):**
+  1. **Create a virtual environment (recommended):**
      ```bash
      python -m venv venv
      # On Windows
@@ -78,6 +73,12 @@ Follow these instructions to get a copy of the project up and running on your lo
      # On macOS/Linux
      source venv/bin/activate
      ```
+  2. **Clone the repository:**
+     ```bash
+     git clone https://github.com/Sonjoy95/Loan-Approval-Classification-Model.git
+     cd Loan-Approval-Classification-Model
+     ```
+  
   3. **Install the required packages:**
      ```bash
      pip install -r requirements.txt
