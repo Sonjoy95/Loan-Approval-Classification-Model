@@ -1,4 +1,4 @@
-# Loan Approval Prediction using Optimized XGBoost
+# Loan Approval Prediction: A Machine Learning Case Study
 
 ## Project Overview
 This project aims to build a robust and accurate machine learning model to predict loan approval status. The primary challenge was addressing a highly imbalanced dataset and ensuring the model's reliability on new, unseen data. Through a rigorous and iterative process, this project demonstrates a complete machine learning workflow, from data preprocessing to model optimization and final evaluation.
